@@ -76,7 +76,7 @@ fruits.push("orange");
 console.log(fruits[0]); // apple
 Common methods: map(), filter(), reduce(), forEach(), find()
 ________________________________________
-8. Events
+**8. Events**
 Used to react to user actions:
 document.getElementById("btn").addEventListener("click", () => {
   alert("Button clicked!");
@@ -118,7 +118,7 @@ const count = outer();
 console.log(count()); // 1
 console.log(count()); // 2
 ________________________________________
-4. ** Asynchronous JS**
+**4. Asynchronous JS**
 •	Callbacks – pass function as argument
 •	Promises – .then().catch()
 •	Async/Await – cleaner syntax
